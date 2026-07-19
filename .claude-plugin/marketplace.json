@@ -1,0 +1,45 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "roamer7038-plugins",
+  "description": "roamer7038 の Claude Code プラグインを集約したマーケットプレイス",
+  "owner": {
+    "name": "roamer7038",
+    "email": "okayado7038@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "kg-wiki",
+      "displayName": "kg-wiki",
+      "description": "Markdown で書かれた知識ページを真のソースとし、そこから検索可能な構造（index・ナレッジグラフ・コミュニティ要約）を決定論的に生成する Claude Code プラグイン。",
+      "author": {
+        "name": "roamer7038",
+        "email": "okayado7038@gmail.com",
+        "url": "https://github.com/roamer7038"
+      },
+      "source": {
+        "source": "github",
+        "repo": "roamer7038/kg-wiki-plugin"
+      },
+      "category": "knowledge",
+      "homepage": "https://github.com/roamer7038/kg-wiki-plugin",
+      "keywords": ["knowledge-base", "knowledge-graph", "wiki", "rag", "memory"]
+    },
+    {
+      "name": "notify-hook-plugin",
+      "displayName": "notify-hook",
+      "description": "WSL から Windows のトースト通知を PowerShell 経由で出す Claude Code フック。Notification（入力/許可待ち）と Stop（応答完了）で通知する。",
+      "author": {
+        "name": "roamer7038",
+        "email": "okayado7038@gmail.com",
+        "url": "https://github.com/roamer7038"
+      },
+      "source": {
+        "source": "github",
+        "repo": "roamer7038/notify-hook-plugin"
+      },
+      "category": "workflow",
+      "homepage": "https://github.com/roamer7038/notify-hook-plugin",
+      "keywords": ["notification", "hook", "wsl", "toast"]
+    }
+  ]
+}
